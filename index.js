@@ -10,11 +10,11 @@ const groups = require('./groups')
 
 /* Database Access */
 const confsDatabase = {
-    host: '192.168.99.100', 
-    port: '32768', 
-    user: 'root',
-    password: 'devpleno',
-    database: 'futibaclub' 
+    host: 'teste_server', 
+    port: '', 
+    user: 'teste_server',
+    password: 'igor231805',
+    database: 'teste_server' 
 }
 
 app.use(express.static('public'))
